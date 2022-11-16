@@ -156,7 +156,7 @@ header .navbar {
 
 .overlay {
 	position: absolute;
-	background: #3acae4;
+	background: url("./img/back.jpg")
 	top: 0;
 	left: 0;
 	right: 0;
