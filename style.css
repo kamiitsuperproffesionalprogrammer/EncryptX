@@ -154,6 +154,9 @@ header .navbar {
 	font-weight: 700;
 }
 
+.title228 {
+	color: white;
+}
 .overlay {
 	position: absolute;
 	background: url("./img/home-bg.jpg")
