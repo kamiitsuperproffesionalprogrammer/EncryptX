@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="reg.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="form">
+      
+        <ul class="tab-group">
+          <li class="tab active"><a href="#signup">Регистрация</a></li>
+          <li class="tab"><a href="#login">Вход</a></li>
+        </ul>
+        
+        <div class="tab-content">
+          <div id="signup">   
+
+            
+            <form action="./index.html" method="post">
+            
+            <div class="top-row">
+              <div class="field-wrap">
+                <input placeholder="Имя" type="text" required autocomplete="off" />
+              </div>
+          
+              <div class="field-wrap">
+                <input placeholder="Фамилия" type="text"required autocomplete="off"/>
+              </div>
+            </div>
+  
+            <div class="field-wrap">
+              <input placeholder="Почта" type="email"required autocomplete="off"/>
+            </div>
+            
+            <div class="field-wrap">
+              <input placeholder="Пароль" type="password"required autocomplete="off"/>
+            </div>
+            
+            <button type="submit" class="button button-block">Зарегистрироваться</button>
+            
+            </form>
+  
+          </div>
+          
+          <div id="login">   
+            <h1>Добро пожаловать!</h1>
+            
+            <form action="/" method="post">
+            
+              <div class="field-wrap">
+              <input placeholder="Почта" type="email"required autocomplete="off"/>
+            </div>
+            
+            <div class="field-wrap">
+              <input placeholder="Пароль" type="password"required autocomplete="off"/>
+            </div>
+            
+            <p class="forgot"><a href="#">Забыли пароль?</a></p>
+            
+            <button class="button button-block">Войти</button>
+            
+            </form>
+          </div>
+        </div>
+        
+  </div>
+  <script src="./reg.js"></script>
+</body>
+</html>
